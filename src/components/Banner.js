@@ -2,6 +2,7 @@ import { Col, Container, Row } from "react-bootstrap"
 import countapi from 'countapi-js';
 import { useState,useEffect } from "react"
 import Typewriter from 'typewriter-effect/dist/core';
+import CountUp from 'react-countup'
 
 new Typewriter('', {
   strings: ['Hello Traveller..!', 'I am Manvith'],
@@ -32,7 +33,7 @@ useEffect(()=>{
                     <Col classname='banner-area' xs={12} md={6} xl={7}>
                         <span className="tagline">I Am Manvith Gatty</span>
                         <h1 id="traveller" >{'Hello Traveller'}</h1>
-                        <p>This Website is has been viewed by people <span id="vist">{visits}</span> times..!</p>
+                        <p>This Website is has been viewed by people <CountUp className="visits" end={visits} useEasing={true}  duration={2.5} />  times..!</p>
                         <button>Connect</button>
                     </Col>
                    <Col  classname='banner_image' xs={12} md={6} xl={5}>

@@ -1,3 +1,4 @@
+/*---body section--*/
 *{
   margin: 0;
   padding: 0;
@@ -16,6 +17,7 @@ h1,h2,h3,h4,h5,h6{
   padding: 0;
   line-height: normal;
 }
+/*-----Navbar----------*/
 .navbar{
   background:#080808;
   color:white;
@@ -64,7 +66,7 @@ color: #c04406;
   color: white;
 }
 
-
+/*-----Banner----------*/
 .banner{
   margin-top: 0;
   padding: 260px 0 100px 0;
@@ -86,13 +88,14 @@ color: #c04406;
   opacity: 1;
   animation: floating 3s infinite ease-in-out;
 }
-#visit{
-  font-size: 1.8rem;
-  color:#dcfd22;
+.visits{
+  color: #dcfd22;
+  font-size:1.5rem;
+  font-weight: 500;
 }
 @keyframes floating {
   0% { transform: translate(0,  0px); }
-  50%  { transform: translate(0, 15px); }
+  50%  { transform: translate(0, 30px); }
   100%   { transform: translate(0, -0px); }   
 }
 .banner .tagline{
@@ -131,6 +134,43 @@ color: #c04406;
   background-color: #121212;
   align-items: center;
 }
+.banner button {
+  appearance: none;
+  background-color: #FFFFFF;
+  border-radius: 40em;
+  border-style: none;
+  box-shadow: #ADCFFF 0 -12px 6px inset;
+  box-sizing: border-box;
+  color: #000000;
+  cursor: pointer;
+  display: inline-block;
+  font-family: -apple-system,sans-serif;
+  font-size: 1.2rem;
+  font-weight: 700;
+  letter-spacing: -.24px;
+  margin: 0;
+  outline: none;
+  padding: 1rem 1.3rem;
+  quotes: auto;
+  text-align: center;
+  text-decoration: none;
+  transition: all .15s;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.banner button:hover {
+  background-color: #FFC229;
+  box-shadow: #FF6314 0 -6px 8px inset;
+  transform: scale(1.125);
+}
+
+.banner button:active {
+  transform: scale(1.025);
+}
+
+/*-----About----------*/
 .about_section{
   margin-top: 0;
   padding: 100px 0 190px 0;
@@ -170,6 +210,7 @@ color: #c04406;
   color:#a303a3;
   cursor: none;
 }
+/*-----Skills----------*/
 
 .skill{
   padding: 0 0 50px 0;
@@ -202,14 +243,7 @@ font-weight: 700;
   margin: 10px 0px 10px 0px;
 }
 
-.background-image-left{
-  top:20%;
-  position: absolute;
-  bottom: 0;
-  width: 100%;
-  background-size: cover;
-  z-index: -4;
-}
+/*-----Project----------*/
 .project{
   padding: 80px 0;
   position: relative;
@@ -310,43 +344,7 @@ font-weight: 700;
   100%{ transform: rotate(-10deg); }
 
 }
-
-/* CSS */
-.banner button {
-  appearance: none;
-  background-color: #FFFFFF;
-  border-radius: 40em;
-  border-style: none;
-  box-shadow: #ADCFFF 0 -12px 6px inset;
-  box-sizing: border-box;
-  color: #000000;
-  cursor: pointer;
-  display: inline-block;
-  font-family: -apple-system,sans-serif;
-  font-size: 1.2rem;
-  font-weight: 700;
-  letter-spacing: -.24px;
-  margin: 0;
-  outline: none;
-  padding: 1rem 1.3rem;
-  quotes: auto;
-  text-align: center;
-  text-decoration: none;
-  transition: all .15s;
-  user-select: none;
-  -webkit-user-select: none;
-  touch-action: manipulation;
-}
-
-.banner button:hover {
-  background-color: #FFC229;
-  box-shadow: #FF6314 0 -6px 8px inset;
-  transform: scale(1.125);
-}
-
-.banner button:active {
-  transform: scale(1.025);
-}
+/*-------Contact-----------*/
 .contact-section{
   margin-top: 0;
   padding: 50px 0 80px 0;
@@ -377,6 +375,7 @@ font-weight: 700;
   height: 60vh;
 }
 
+/*-------Footer-----------*/
 #footer-container{
   padding: 10px;
 }
@@ -389,6 +388,8 @@ font-weight: 700;
   text-align: center;
 }
 .footer_icon{
+  border-top: 2px solid white;
+  padding: 5px 0px 5px 0px;
   display: inline-block;
   text-align: center;
 }
@@ -396,30 +397,8 @@ font-weight: 700;
   padding: 10px;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*Media queries*/
-@media (min-width: 768px) {
+@media (min-width:400px) {
   .banner button{
     font-size: 1.5rem;
     padding: .75rem 2rem;
@@ -484,6 +463,8 @@ font-weight: 700;
   .logo-head{
     width: 3vh;
     height:3vh;
+    position: relative;
+    right:45px;
     
   }
   .list_name{
@@ -512,9 +493,14 @@ font-weight: 700;
     background-color: rgba(255, 255, 255, 0.075);
     padding-bottom: 5rem;
   }
-  #legend-skill{
-    color: #030303;
+  .skill-bx{
+    background: #1d1c1c;
+    border-radius: 64px;
+    text-align: center;
+    padding: 60px 40px 150px;
+    margin-top: -60px;
   }
+ 
   .profile_pic{
     margin-left: 12vw;
     width: 30vh;

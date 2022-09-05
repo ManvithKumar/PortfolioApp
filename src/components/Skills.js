@@ -1,7 +1,6 @@
 import { Container, Row, Col } from 'react-bootstrap'
 import {
-    ResponsiveContainer,
-    AreaChart, Area, Pie, PieChart, Legend, Cell
+    ResponsiveContainer, Pie, PieChart, Legend, Cell
 
 } from 'recharts'
 
@@ -37,10 +36,14 @@ const COLORS=['#f53d18','#ad6c09','#146aff','#fcfc03','#fc033d','#89f516' ]
                                         data.map((entry, index) => <Cell fill={COLORS[index % COLORS.length]} />)
                                     }
                                     </Pie>
-                                    <Legend layout="vetical" 
+                                    <Legend 
+                                    id='skill_legend'
+                                    layout="vetical" 
                                     align='right'
                                     verticalAlign = "bottom"
-                                     values={data}/>
+                                     values={data}
+                                    className='skill-legend'
+                                     />
                                 </PieChart>
                             </ResponsiveContainer>
                         </div>

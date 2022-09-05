@@ -1,6 +1,5 @@
 import {
-    Container, Row, Col, FormCheck
-    , Form, Button
+    Container, Row, Col,  Form, Button
 
 } from 'react-bootstrap'
 import emailjs from 'emailjs-com'
@@ -29,6 +28,7 @@ export const Contact = () => {
         e.target.reset()
         notify();
     };
+
 
     const notify = () =>
         toast.success("Thank You For Your Feedback");
