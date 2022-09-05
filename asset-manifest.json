@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/ManvithKumar/PortfolioApp.io/static/css/main.c47b6a4a.css",
+    "main.js": "/ManvithKumar/PortfolioApp.io/static/js/main.ed315b57.js",
+    "static/media/lantern.png": "/ManvithKumar/PortfolioApp.io/static/media/lantern.ac7f8e68f44fbab966bc.png",
+    "static/media/image1.jpg": "/ManvithKumar/PortfolioApp.io/static/media/image1.1858dc61fc8c5de5f98b.jpg",
+    "static/media/japanese-lantern3.jpg": "/ManvithKumar/PortfolioApp.io/static/media/japanese-lantern3.116d51a6abf3bd30afea.jpg",
+    "static/media/octopus.jpg": "/ManvithKumar/PortfolioApp.io/static/media/octopus.f4490739a0ee73435820.jpg",
+    "static/media/contact.png": "/ManvithKumar/PortfolioApp.io/static/media/contact.115a0054075dd1d16419.png",
+    "static/media/jellyfish.jpg": "/ManvithKumar/PortfolioApp.io/static/media/jellyfish.d2a714f73b38d5edb859.jpg",
+    "static/media/myimage.jpg": "/ManvithKumar/PortfolioApp.io/static/media/myimage.3f7dab60732d115715e0.jpg",
+    "static/media/fox-icon.png": "/ManvithKumar/PortfolioApp.io/static/media/fox-icon.3715d4d17dc886e9955f.png",
+    "static/media/whale.jpg": "/ManvithKumar/PortfolioApp.io/static/media/whale.fa207496772a260e02f9.jpg",
+    "index.html": "/ManvithKumar/PortfolioApp.io/index.html",
+    "main.c47b6a4a.css.map": "/ManvithKumar/PortfolioApp.io/static/css/main.c47b6a4a.css.map",
+    "main.ed315b57.js.map": "/ManvithKumar/PortfolioApp.io/static/js/main.ed315b57.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c47b6a4a.css",
+    "static/js/main.ed315b57.js"
+  ]
+}
