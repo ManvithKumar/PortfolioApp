@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/PortfolioApp.io/static/css/main.4c0b0db6.css",
-    "main.js": "/PortfolioApp.io/static/js/main.4e4a9336.js",
+    "main.js": "/PortfolioApp.io/static/js/main.12bc878b.js",
     "static/media/lantern.png": "/PortfolioApp.io/static/media/lantern.ac7f8e68f44fbab966bc.png",
     "static/media/image1.jpg": "/PortfolioApp.io/static/media/image1.1858dc61fc8c5de5f98b.jpg",
     "static/media/japanese-lantern3.jpg": "/PortfolioApp.io/static/media/japanese-lantern3.116d51a6abf3bd30afea.jpg",
@@ -13,10 +13,10 @@
     "static/media/whale.jpg": "/PortfolioApp.io/static/media/whale.fa207496772a260e02f9.jpg",
     "index.html": "/PortfolioApp.io/index.html",
     "main.4c0b0db6.css.map": "/PortfolioApp.io/static/css/main.4c0b0db6.css.map",
-    "main.4e4a9336.js.map": "/PortfolioApp.io/static/js/main.4e4a9336.js.map"
+    "main.12bc878b.js.map": "/PortfolioApp.io/static/js/main.12bc878b.js.map"
   },
   "entrypoints": [
     "static/css/main.4c0b0db6.css",
-    "static/js/main.4e4a9336.js"
+    "static/js/main.12bc878b.js"
   ]
 }
